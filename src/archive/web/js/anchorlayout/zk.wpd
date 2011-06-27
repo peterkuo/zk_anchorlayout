@@ -1,0 +1,3 @@
+<package name="anchorlayout" language="xul/html" cacheable="false" depends="zul.wgt">
+	<widget name="Anchorlayout"/>
+</package>

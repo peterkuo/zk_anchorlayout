@@ -1,0 +1,1 @@
+anchorchildren.Anchorchildren = zk.$extends(zul.Widget, {});

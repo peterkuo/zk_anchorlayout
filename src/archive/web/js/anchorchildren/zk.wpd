@@ -1,0 +1,3 @@
+<package name="anchorchildren" language="xul/html" cacheable="false" depends="zul.wgt">
+	<widget name="Anchorchildren"/>
+</package>
