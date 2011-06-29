@@ -7,14 +7,6 @@
 	overflow: hidden;
 }
 
-.z-anchorchildren{
-	border:1px solid red;
-}
-
-.z-anchorlayout{
-	border:1px solid blue;
-}
-
 .z-anchorchildren {
     float: left; padding: 0; margin: 0;
 }
