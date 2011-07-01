@@ -4,6 +4,16 @@ import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.UiException;
 import org.zkoss.zul.impl.XulElement;
 
+/**
+ * An anchorlayout lays out a container which can resize 
+ * it's children base on its width and height<br>
+ * <p>Available in ZK addon.
+ * 
+ * <p>Default {@link #getZclass}: z-anchorlayout.
+ * 
+ * @author peterkuo
+ * @since 5.0.7
+ */
 public class Anchorlayout extends XulElement{
 
 	public void beforeChildAdded(Component child, Component refChild) {
