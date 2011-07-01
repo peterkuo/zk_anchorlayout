@@ -25,7 +25,6 @@
 		<mold>
 			<mold-name>default</mold-name>
 			<mold-uri>mold/anchorchildren.js</mold-uri>
-			<css-uri>css/anchorchildren.css.dsp</css-uri>
 		</mold>
 	</component>
 </language-addon>
