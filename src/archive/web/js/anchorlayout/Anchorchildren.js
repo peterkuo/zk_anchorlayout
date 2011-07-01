@@ -1,4 +1,4 @@
-anchorchildren.Anchorchildren = zk.$extends(zul.Widget, {
+anchorlayout.Anchorchildren = zk.$extends(zul.Widget, {
 	_anchor: null,
 	$define: {
 		anchor: function () {
@@ -35,24 +35,24 @@ anchorchildren.Anchorchildren = zk.$extends(zul.Widget, {
 		}
 		
 		//calculate the height and width in pixel based on _anchor
-		if(!this._anchor) return;
+		if (!this._anchor) return;
 		var parentn = this.parent.$n();
 		var parentwidth = jq(parentn).width();
 		var parentheight = jq(parentn).height();
 		var arr = this._anchor.split(" ",2);
 		var anchorWidth=arr[0], anchorHeight=arr[1];
 		
-		if(anchorWidth.indexOf("%") > 0){
+		if (anchorWidth.indexOf("%") > 0) {
 			this.$n().style.width = Math.floor(parentwidth * zk.parseInt(anchorWidth) / 100) + "px";
-		}else{
+		} else {
 			this.$n().style.width = parentwidth + zk.parseInt(anchorWidth) + "px";
 		}
 		this.$n("cave").style.width = this.$n().style.width;
 		
-		if(anchorHeight){
-			if(anchorHeight.indexOf("%") > 0){
+		if (anchorHeight) {
+			if (anchorHeight.indexOf("%") > 0) {
 				this.$n().style.height = Math.floor(parentheight * zk.parseInt(anchorHeight) / 100) + "px";
-			}else{
+			} else {
 				this.$n().style.height = parentheight + zk.parseInt(anchorHeight) + "px";
 			}
 			this.$n("cave").style.height = this.$n().style.height;		
@@ -79,5 +79,5 @@ anchorchildren.Anchorchildren = zk.$extends(zul.Widget, {
 		if (n) {
 			this._oriWidth = n.style.width;
 		}
-	}
+	}	
 });

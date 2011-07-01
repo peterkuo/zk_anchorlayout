@@ -71,18 +71,6 @@ anchorlayout.Anchorlayout = zk.$extends(zul.Widget, {
 			zWatch.fireDown('onSize',this);
 		}
 	},	
-	onChildAdded_: function (child) {
-		this.$supers('onChildAdded_', arguments);
-		this.listen({
-			onSize: child
-		});	
-	},
-	onChildRemoved_: function (child) {
-		this.$supers('onChildRemoved_', arguments);
-		this.unlisten({
-			onSize: child
-		});	
-	},	
 	bind_: function () {//after compose
 		this.$supers(anchorlayout.Anchorlayout, 'bind_', arguments); 
 		zWatch.listen({onSize: this, onShow: this});

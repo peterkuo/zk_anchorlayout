@@ -1,4 +1,4 @@
-package org.zkoss.anchorlayout;
+package org.zkoss.addon.anchorlayout;
 
 import java.io.IOException;
 

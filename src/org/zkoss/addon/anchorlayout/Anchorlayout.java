@@ -1,4 +1,4 @@
-package org.zkoss.anchorlayout;
+package org.zkoss.addon.anchorlayout;
 
 import org.zkoss.zk.ui.Component;
 import org.zkoss.zk.ui.UiException;

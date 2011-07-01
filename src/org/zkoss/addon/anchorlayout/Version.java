@@ -16,7 +16,7 @@ Copyright (C) 2006 Potix Corporation. All Rights Reserved.
 	it will be useful, but WITHOUT ANY WARRANTY.
 }}IS_RIGHT
 */
-package org.zkoss.anchorlayout;
+package org.zkoss.addon.anchorlayout;
 
 /**
  * Specified this in lang.xml, such that ZK knows what lang-addon.xml is associated

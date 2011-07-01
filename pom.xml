@@ -1,9 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.zkoss</groupId>
+  <groupId>org.zkoss.addon</groupId>
   <artifactId>anchorlayout</artifactId>
-  <version>5.0.8-SNAPSHOT</version>
-
+  <version>1.0.0</version>
 	<repositories>
 		<repository>
 			<id>zk repository</id>
@@ -37,14 +36,13 @@
 		<dependency>
 			<groupId>org.zkoss.zk</groupId>
 			<artifactId>zk</artifactId>
-			<version>${project.version}</version>
+			<version>5.0.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.zkoss.zk</groupId>
 			<artifactId>zul</artifactId>
-			<version>${project.version}</version>
+			<version>5.0.8-SNAPSHOT</version>
 		</dependency>
-		
 	</dependencies>
 	<build>
 		<directory>${project.basedir}/debug</directory>
